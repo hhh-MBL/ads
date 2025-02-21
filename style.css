@@ -17,4 +17,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Ensure the container always has a defined width */
+  min-width: 300px;
 }
