@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Wait briefly to ensure the container is rendered and sized.
+  // Wait 200ms to ensure the ad container is rendered with valid dimensions.
   setTimeout(function() {
     (adsbygoogle = window.adsbygoogle || []).push({});
-  }, 100);
+  }, 200);
 });
