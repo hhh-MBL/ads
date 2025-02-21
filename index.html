@@ -1,20 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AdSense Auto Refresh Example</title>
-  <link rel="stylesheet" href="style.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4815724966789569" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AdSense Site</title>
+    
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4815724966789569"
+        crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .ad-container {
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-  <div id="ad-container">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-4815724966789569"
-         data-ad-slot="4449311662"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-  </div>
-  <script src="script.js"></script>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple website with Google AdSense ads integrated.</p>
+
+        <!-- AdSense Ad (Top Banner) -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4815724966789569"
+                 data-ad-slot="4449311662"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <h2>About This Page</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Phasellus eget magna id urna sollicitudin euismod.</p>
+
+        <!-- AdSense Ad (Middle of Content) -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4815724966789569"
+                 data-ad-slot="4449311662"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <h2>More Content</h2>
+        <p>Vivamus accumsan vehicula diam, a vestibulum lectus laoreet et. Nulla facilisi.</p>
+
+        <!-- AdSense Ad (Bottom) -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4815724966789569"
+                 data-ad-slot="4449311662"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+    </div>
+
 </body>
 </html>
